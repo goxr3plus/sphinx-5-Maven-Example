@@ -1,2 +1,6 @@
+
 # sphinx-5-Maven-Example
-Sphinx-5-Maven-Example full
+How to use Sphinx5 basic example using Maven and automatic build for production using Maven assembly
+
+
+# Yo check youtube tutorial 
