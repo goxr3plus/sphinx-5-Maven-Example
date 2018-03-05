@@ -1,4 +1,4 @@
-package main.java.goxr3plus.sphinx5MavenExample.application;
+package main.java.goxr3plus.sphinx5mavenexample.application;
 
 import java.io.IOException;
 import java.util.List;
@@ -78,7 +78,7 @@ public class Main {
 		//Uncomment this line of code if you want the recognizer to recognize every word of the language 
 		//you are using , here it is English for example	
 		//====================================================================================
-		//configuration.setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us.lm.bin");
+		configuration.setLanguageModelPath("resource:/edu/cmu/sphinx/models/en-us/en-us.lm.bin");
 		
 		//====================================================================================
 		//=====================READ THIS!!!===============================================
@@ -88,7 +88,7 @@ public class Main {
 		// Grammar
 		configuration.setGrammarPath("resource:/grammars");
 		configuration.setGrammarName("grammar");
-		configuration.setUseGrammar(true);
+		//configuration.setUseGrammar(true);
 		
 		try {
 			recognizer = new LiveSpeechRecognizer(configuration);

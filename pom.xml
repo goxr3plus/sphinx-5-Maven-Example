@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.goxr3plus</groupId>
-    <artifactId>sphix4-maven-example</artifactId>
+    <artifactId>Sphinx5-maven-example</artifactId>
     <version>1.0.0</version>
-    <name>Sphinx-4/5 Maven Example</name>
-    <description>Sphinx-4/5 Maven Example</description>
+    <name>Sphinx5 Maven Example</name>
+    <description>Sphinx5 Maven Example</description>
 
     <!-- Output to jar format -->
     <packaging>jar</packaging>
@@ -70,7 +70,7 @@
                     <archive>
                         <manifest>
                             <addClasspath>true</addClasspath>
-                            <mainClass>main.java.com.goxr3plus.sphinx5MavenExample.application.Main</mainClass>
+                            <mainClass>main.java.com.goxr3plus.sphinx5mavenexample.application.Main</mainClass>
                             <classpathPrefix>Sphinx5_Maven_Example_lib/</classpathPrefix>
                         </manifest>
                     </archive>
